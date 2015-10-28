@@ -16,24 +16,30 @@
 
 
 h1 {
-	font-family: @import url(https://fonts.googleapis.com/css?family=Oswald:300), "Polaris Condensed", Georgia, "Times New Roman", Times, serif;
+	font-family: url(https://fonts.googleapis.com/css?family=Oswald:300), "Polaris Condensed", Georgia, "Times New Roman", Times, serif;
 	color: #000;
 }
 
 body {
+	font-family: url(https://fonts.googleapis.com/css?family=Oswald:300), "Polaris Condensed", Georgia, "Times New Roman", Times, serif !important;
 	margin-left: 15%;
 	margin-right: 15%;
 	padding-bottom: 50px;
 }
 
-// Place all the styles related to the Survey controller here.
+/*// Place all the styles related to the Survey controller here.
 // They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+// You can use Sass (SCSS) here: http://sass-lang.com/*/
+
+a {
+	color:#00aced;
+}
 
 a.drop-downtoggle {
 	font-family:  Georgia, "Times New Roman", Times, serif;
 	line-height: 5px;
 	font-size: 10em;
+	background-color: white;
 }
 
 
@@ -58,6 +64,17 @@ a:focus {
 
 .chosen {
   font-weight: bold;
+}
+
+.caret {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 2px;
+	vertical-align: middle;
+	border-top: 4px solid #FF0000;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
 }
 
 .questions {
@@ -112,11 +129,11 @@ a:focus {
   }
 
   &-score {
-    background-color: #B26E63;
+    background-color:  #00FF00;
   }
 
   &-all {
-    background-color: grey;
+    background-color: #aba;
   }
 }
 
@@ -185,9 +202,14 @@ span.badge {
   vertical-align: middle;
 }
 
+.navbar-default {
+	background-color: white !important;
+}
+
 .navbar {
-  background-color: #000;
+	background-color: white;
   margin-bottom: 0;
+  border-bottom: 7px solid #000;
 }
 .navbar-text {
 	padding-right: 60px;
@@ -195,6 +217,11 @@ span.badge {
 }
 .navbar-brand {
 	display: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background-color: white;
+	border-bottom: 3px solid #FF0000;
 }
 
 .gem-info {
@@ -205,6 +232,14 @@ span.badge {
   text-align: center;
   font-size: 13px;
   margin-bottom: 10px;
+}
+
+.btn {
+	background-color: ;
+}
+
+.btn-primary {
+	background-color: #00aced;
 }
 
 .footer {

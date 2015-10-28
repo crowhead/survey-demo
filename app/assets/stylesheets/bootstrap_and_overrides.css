@@ -5,3 +5,6 @@
   =require twitter-bootstrap-static/fontawesome
   To use Glyphicons sprites instead of Font Awesome, replace with "require twitter-bootstrap-static/sprites"
 */
+
+@import "bootstrap";
+@import "bootstrap-responsive";
