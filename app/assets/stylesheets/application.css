@@ -27,9 +27,9 @@ body {
 	padding-bottom: 50px;
 }
 
-/*// Place all the styles related to the Survey controller here.
+// Place all the styles related to the Survey controller here.
 // They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/*/
+// You can use Sass (SCSS) here: http://sass-lang.com/
 
 a {
 	color:#00aced;
@@ -117,22 +117,20 @@ a:focus {
   padding: 10px;
 }
 
+
 .label-survey {
   margin-right: 5px;
-  
-  &-quiz {
+}
+.label-survey-quiz {
     background-color: #ee2737;
   }
-
-  &-poll {
+.label-survey-poll {
     background-color: #00aced;
   }
-
-  &-score {
+.label-survey-score {
     background-color:  #00FF00;
   }
-
-  &-all {
+.label-survey-all {
     background-color: #aba;
   }
 }
@@ -151,23 +149,23 @@ span.badge {
   padding: 2px 5px;
   font-size: 10px;
   background-color: white;
+}
 
-  &-quiz {
-    color: #ee2737;
+.label-badge-quiz {
+    color: #ee2737 !important;
   }
 
-  &-poll {
-    color: #00aced;
+.label-badge-poll {
+    color: #00aced !important;
   }
 
-  &-score {
-    color: #B26E63;
+.label-badge-score {
+    color: #00FF00 !important; 
   }
 
-  &-all {
+.label-badge-all {
     color: grey;
   }
-}
 
 .survey-table {
   margin-top: 15px;
