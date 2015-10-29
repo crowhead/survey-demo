@@ -26,6 +26,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'puma' # app server
 gem 'survey' # our gem
 gem 'twitter-bootstrap-rails'
+gem 'bootstrap-sass'
 gem 'kaminari' # pagination
 gem 'client_side_validations', github: 'DavyJonesLocker/client_side_validations' # validates forms on the client side
 gem 'newrelic_rpm' # new relic instrumentation (heroku plugin)
