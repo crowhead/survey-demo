@@ -56,11 +56,11 @@ a:focus {
   padding-left: 20px;
   padding-bottom: 10px;
   color: #666;
-
+}
   .number {
     font-size: 15px;
   }
-}
+
 
 .chosen {
   font-weight: bold;
@@ -79,11 +79,11 @@ a:focus {
 
 .questions {
   padding-left: 20px;
-
-  li {
+}
+.questions.li {
     font-size: 16px;
     padding-bottom: 20px;
-
+}
     .question {
       display: inline-block;
       vertical-align: top;
@@ -97,8 +97,6 @@ a:focus {
       font-size: 14px;      
       padding-bottom: 0;
     }
-  }
-}
 
 .options {
   padding-left: 0;
@@ -133,7 +131,7 @@ a:focus {
 .label-survey-all {
     background-color: #aba;
   }
-}
+
 
 
 span.badge {
