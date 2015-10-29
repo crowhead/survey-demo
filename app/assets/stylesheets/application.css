@@ -169,11 +169,12 @@ span.badge {
 
 .survey-table {
   margin-top: 15px;
+}
 
-  td {
+td {
     vertical-align: middle !important;
   }
-}
+
 
 .survey-buttons {
   min-width: 150px;
