@@ -204,7 +204,7 @@ DEPENDENCIES
   awesome_print
   better_errors
   binding_of_caller
-  bootstrap-sass
+  bootstrap-sass (~> 3.3.5)
   client_side_validations!
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
