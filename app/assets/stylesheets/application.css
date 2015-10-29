@@ -16,11 +16,12 @@
 
 
 h1 {
-	font-family: @import url(https://fonts.googleapis.com/css?family=Oswald:300), "Polaris Condensed", Georgia, "Times New Roman", Times, serif;
+	font-family: url(https://fonts.googleapis.com/css?family=Oswald:300), "Polaris Condensed", Georgia, "Times New Roman", Times, serif;
 	color: #000;
 }
 
 body {
+	font-family: url(https://fonts.googleapis.com/css?family=Oswald:300), "Polaris Condensed", Georgia, "Times New Roman", Times, serif !important;
 	margin-left: 15%;
 	margin-right: 15%;
 	padding-bottom: 50px;
@@ -30,10 +31,15 @@ body {
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+a {
+	color:#00aced;
+}
+
 a.drop-downtoggle {
 	font-family:  Georgia, "Times New Roman", Times, serif;
 	line-height: 5px;
 	font-size: 10em;
+	background-color: white;
 }
 
 
@@ -58,6 +64,17 @@ a:focus {
 
 .chosen {
   font-weight: bold;
+}
+
+.caret {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 2px;
+	vertical-align: middle;
+	border-top: 4px solid #FF0000;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
 }
 
 .questions {
@@ -100,23 +117,21 @@ a:focus {
   padding: 10px;
 }
 
+
 .label-survey {
   margin-right: 5px;
-  
-  &-quiz {
+}
+.label-survey-quiz {
     background-color: #ee2737;
   }
-
-  &-poll {
+.label-survey-poll {
     background-color: #00aced;
   }
-
-  &-score {
-    background-color: #B26E63;
+.label-survey-score {
+    background-color:  #00FF00;
   }
-
-  &-all {
-    background-color: grey;
+.label-survey-all {
+    background-color: #aba;
   }
 }
 
@@ -134,23 +149,23 @@ span.badge {
   padding: 2px 5px;
   font-size: 10px;
   background-color: white;
+}
 
-  &-quiz {
-    color: #ee2737;
+.label-badge-quiz {
+    color: #ee2737 !important;
   }
 
-  &-poll {
-    color: #00aced;
+.label-badge-poll {
+    color: #00aced !important;
   }
 
-  &-score {
-    color: #B26E63;
+.label-badge-score {
+    color: #00FF00 !important; 
   }
 
-  &-all {
+.label-badge-all {
     color: grey;
   }
-}
 
 .survey-table {
   margin-top: 15px;
@@ -185,10 +200,15 @@ span.badge {
   vertical-align: middle;
 }
 
+.navbar-default {
+	background-color: white !important;
+}
+
 .navbar {
   height: 60px;
-  background-color: #000;
+  background-color: white;
   margin-bottom: 0;
+  border-bottom: 7px solid #000;
 }
 .navbar a {
 	display: inline-block;
@@ -205,6 +225,11 @@ span.badge {
 	display: none;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background-color: white;
+	border-bottom: 3px solid #FF0000;
+}
+
 .gem-info {
   height: 30px;
   line-height: 30px;
@@ -213,6 +238,14 @@ span.badge {
   text-align: center;
   font-size: 13px;
   margin-bottom: 10px;
+}
+
+.btn {
+	background-color: ;
+}
+
+.btn-primary {
+	background-color: #00aced;
 }
 
 .footer {
