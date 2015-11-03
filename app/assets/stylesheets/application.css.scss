@@ -254,21 +254,21 @@ td {
 .navbar li {
 	margin: 0 auto;
 }
-.navbar-text {
-/*	padding-right: 60px;
-	margin-right: 20%;*/
-}
 
 .navbar-toggle {
   float: left;
 }
 
 a.navbar-brand {
-  display: none;
-}
-.navbar-brand {
-	display: none;
-}
+  content: normal;
+  background-image: url(http://images.hw.net/Brightspot/Max/logo.png);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px 100px;
+/*  display: none;
+*/}
+
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   background-color: white;
