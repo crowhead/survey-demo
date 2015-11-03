@@ -17,9 +17,9 @@
 @import "bootstrap";
 
 
-h1 {
+h1, h2, h3, h4 {
 	font-family: url(https://fonts.googleapis.com/css?family=Oswald:300), "Polaris Condensed", Georgia, "Times New Roman", Times, serif;
-	color: #000;
+	color: #666;
 }
 
 body {
@@ -37,6 +37,10 @@ a {
 	color:#00aced;
 }
 
+i {
+  color: #FF0000;
+}
+
 .drop-downtoggle {
 	font-family:  Georgia, "Times New Roman", Times, serif;
 	line-height: 5px;
@@ -44,8 +48,13 @@ a {
 	background-color: white;
 }
 
+label {
+  color: #666;
+}
 
+div.container {
 
+}
 
 a:hover,
 a:focus {
@@ -118,7 +127,12 @@ a:focus {
   padding: 10px;
 }
 
-
+.label {
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  padding-right: 0.8em;
+  padding-left: 0.8em;
+}
 .label-survey {
   margin-right: 5px;
 }
@@ -132,7 +146,7 @@ a:focus {
     background-color:  #00FF00;
   }
 .label-survey-all {
-    background-color: #aba;
+    background-color: #666666;
   }
 
 .label-with-badges {
@@ -144,6 +158,9 @@ a:focus {
   padding: 2px 5px;
   font-size: 10px;
   background-color: white;
+}
+.label-survey span {
+  vertical-align: middle;
 }
 
 .label-badge-quiz {
@@ -236,8 +253,20 @@ td {
   margin-bottom: 10px;
 }
 
+input.btn-default {
+  background-color: #00aced;
+  border: none;
+  color: white;
+}
+
+a.btn-default {
+  color: #00aced;
+}
+
 .btn-primary {
 	background-color: #00aced;
+  border: none;
+  color: white;
 }
 
 .footer {
