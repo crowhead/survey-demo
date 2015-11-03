@@ -37,12 +37,14 @@ a {
 	color:#00aced;
 }
 
-a.drop-downtoggle {
+.drop-downtoggle {
 	font-family:  Georgia, "Times New Roman", Times, serif;
 	line-height: 5px;
 	font-size: 10em;
 	background-color: white;
 }
+
+
 
 
 a:hover,
@@ -133,12 +135,6 @@ a:focus {
     background-color: #aba;
   }
 
-
-/*
-span.badge {
-	border
-}*/
-
 .label-with-badges {
   display: inline-block;
   padding: 5px 10px;
@@ -226,8 +222,8 @@ td {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-	background-color: white;
-	border-bottom: 3px solid #FF0000;
+  background-color: white;
+  border-bottom: 3px solid #FF0000;
 }
 
 .gem-info {
@@ -239,10 +235,6 @@ td {
   font-size: 13px;
   margin-bottom: 10px;
 }
-
-/*.btn {
-	background-color: ;
-}*/
 
 .btn-primary {
 	background-color: #00aced;
