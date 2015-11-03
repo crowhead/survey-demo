@@ -156,7 +156,7 @@ ol.questions {
     background-color: #00aced;
   }
 .label-survey-score {
-    background-color:  #00FF00;
+    background-color:  #02E603;
   }
 .label-survey-all {
     background-color: #666666;
@@ -185,11 +185,11 @@ ol.questions {
   }
 
 .label-badge-score {
-    color: #00FF00 !important; 
+    color: #02E603 !important; 
   }
 
 .label-badge-all {
-    color: grey;
+    color: #666;
   }
 
 .survey-table {
@@ -296,6 +296,7 @@ a#remove-attach {
 }
 
 .headerCreateSurvey {
+  margin-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 20px;
   border-bottom: 3px #666 solid;
