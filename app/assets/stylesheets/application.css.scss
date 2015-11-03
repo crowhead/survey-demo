@@ -28,9 +28,8 @@ hr {
 
 body {
 	font-family: url(https://fonts.googleapis.com/css?family=Oswald:300), "Polaris Condensed", Georgia, "Times New Roman", Times, serif !important;
-	display: inline-block;
-  margin-left: 15%;
-	margin-right: 15%;
+  margin-left: 5%;
+	margin-right: 5%;
 	padding-bottom: 50px;
 }
 
@@ -46,6 +45,10 @@ i {
   color: #FF0000;
 }
 
+small {
+  font-size: 85% !important;
+}
+
 .drop-downtoggle {
 	font-family:  Georgia, "Times New Roman", Times, serif;
 	line-height: 5px;
@@ -58,7 +61,7 @@ label {
 }
 
 div.container {
-
+  width: 750px;
 }
 
 a:hover,
@@ -68,13 +71,6 @@ a:focus {
 
 .survey-form {
   padding-bottom: 40px;
-}
-
-.form-group {
-  display: table-cell;
-}
-.form-group #survey_survey_name, #survey_survey_attempts_number, #survey_survey_active {
-  vertical-align: baseline;
 }
 
 .answers-number {
@@ -101,6 +97,10 @@ a:focus {
 	border-left: 6px solid transparent;
 }
 
+ol.questions {
+  margin-bottom: 30px;
+}
+
 .questions {
   padding-left: 20px;
 }
@@ -111,8 +111,9 @@ a:focus {
 .question {
   display: inline-block;
   vertical-align: top;
-  font-size: 16px;
-  border-bottom: 1px solid #eee;
+  font-size: 18px;
+
+  border-bottom: 1px solid #999;
   padding-bottom: 5px;
   margin-bottom: 10px;
 }
@@ -243,8 +244,12 @@ td {
 	margin: 0 auto;
 }
 .navbar-text {
-	padding-right: 60px;
-	margin-right: 20%;
+/*	padding-right: 60px;
+	margin-right: 20%;*/
+}
+
+a.navbar-brand {
+  display: none;
 }
 .navbar-brand {
 	display: none;
@@ -271,8 +276,17 @@ input.btn-default {
   color: white;
 }
 
+input.pull-right {
+  margin-top: 30px;
+  float: left !important;
+}
+
 a.btn-default {
   color: #00aced;
+}
+
+a#remove-attach {
+  color: #FF0000;
 }
 
 .btn-primary {
@@ -283,6 +297,7 @@ a.btn-default {
 
 .headerCreateSurvey {
   padding-bottom: 30px;
+  margin-bottom: 20px;
   border-bottom: 3px #666 solid;
 }
 
