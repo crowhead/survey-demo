@@ -29,6 +29,7 @@ hr {
 
 body {
 	font-family: url(https://fonts.googleapis.com/css?family=Oswald:300), "Polaris Condensed", Georgia, "Times New Roman", Times, serif !important;
+  font-weight: 500;
   margin-left: 5%;
 	margin-right: 5%;
 	padding-bottom: 50px;
@@ -98,8 +99,13 @@ a:focus {
 	border-left: 6px solid transparent;
 }
 
+ol li {
+  font-size: 18px;
+}
+
 ol.questions {
   margin-bottom: 30px;
+  font-size: 18px;
 }
 
 .questions {
@@ -140,6 +146,10 @@ ol.questions {
   padding: 10px;
 }
 
+.radio label {
+  font-size: 18px;
+}
+
 .label {
   padding-top: 0.6em;
   padding-bottom: 0.8em;
@@ -157,7 +167,7 @@ ol.questions {
     background-color: #00aced;
   }
 .label-survey-score {
-    background-color:  #02E603;
+    background-color:  #01C302;
   }
 .label-survey-all {
     background-color: #666666;
@@ -186,7 +196,7 @@ ol.questions {
   }
 
 .label-badge-score {
-    color: #02E603 !important; 
+    color: #01C302 !important; 
   }
 
 .label-badge-all {
@@ -247,6 +257,10 @@ td {
 .navbar-text {
 /*	padding-right: 60px;
 	margin-right: 20%;*/
+}
+
+.navbar-toggle {
+  float: left;
 }
 
 a.navbar-brand {

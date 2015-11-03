@@ -48,7 +48,7 @@ module SurveysHelper
 
   def number_of_people_who_also_answered option_id
     count = number_of_people_who_also_answered_count(option_id)
-    "<span class='number'> #{count} </span> #{'answer'.pluralize}".html_safe
+    "<span class='number'> #{count} </span> #{'vote'.pluralize}".html_safe
   end
 
   def get_color_of_option answer, option
