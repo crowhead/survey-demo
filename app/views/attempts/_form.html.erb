@@ -1,3 +1,8 @@
+<div class="container">
+  <%= render 'shared/submit_name_modal' %>
+  <%= yield %>
+</div>
+
 <h2 class="survey-title">
   <%= @survey.name %>
   <p><small><%= @attempt.survey.description %></small></p>
