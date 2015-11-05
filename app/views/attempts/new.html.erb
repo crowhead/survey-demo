@@ -1,9 +1,10 @@
+
 <div class="container">
   <% if @survey.nil? %>
     <p>
       This survey is no longer available
     </p>
-  <% elsif @survey.avaliable_for_participant?(@participant) %>
+  <% elsif @survey.id %>
     <%= render 'form' %>
   <% else %>
     <p>

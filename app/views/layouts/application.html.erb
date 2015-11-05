@@ -9,6 +9,8 @@
 </head>
 <body>
 <%= render 'shared/submit_name_modal' %>
+
+
 <%= render 'shared/navbar' %>
 <%= render 'shared/flash' %>
 <%= yield %>
@@ -18,6 +20,11 @@
 			$(this).toggleClass('active');
 			$('.dropdown-menu').toggle();
 		});
+
+	if ($("#submit-name-modal").data("new-user") === true) {
+		$("#submit-name-modal").removeClass("fade").show();
+	}
+
 	});
 </script>
 </body>
